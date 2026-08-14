@@ -1,15 +1,15 @@
 package com.studentSystem.StudentmanagementSystem.dto;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 
 @Data
+@AllArgsConstructor
 @NoArgsConstructor
-@RequiredArgsConstructor
 public class StudentReq {
-    private String firstName;
-    private String lastName;
+    private String name;
     private String email;
-    private String department;
+    private String course;
 }

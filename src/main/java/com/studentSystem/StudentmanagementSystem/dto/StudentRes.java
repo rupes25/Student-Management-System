@@ -5,9 +5,11 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 public class StudentRes {
-    private String firstName;
-    private String lastName;
+    private Long id;
+    private String name;
+    private String email;
+    private String course;
 }
